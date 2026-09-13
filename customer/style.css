@@ -1,0 +1,99 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  color: #10213b;
+  background: #eefbff;
+}
+h1, h2, h3 { color: #049fd3; }
+h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+h3 {
+  margin: 14px 0 8px;
+  font-size: 16px;
+}
+section {
+  max-width: 980px;
+  margin: 12px auto;
+  padding: 14px;
+  border: 1px solid #cfe4ee;
+  border-radius: 10px;
+  background: #ffffff;
+}
+label {
+  display: inline-block;
+  margin: 6px 4px 6px 0;
+  font-weight: bold;
+}
+select, input {
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid #bfd3df;
+  border-radius: 6px;
+}
+button {
+  min-height: 40px;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  background: #049fd3;
+  font-weight: bold;
+  cursor: pointer;
+}
+#switchToAdminButton { float: right; }
+#addToCartButton, #cartSubtotalText, #orderContainer h4 {
+  color: #f2388f;
+}
+#addToCartButton {
+  color: #ffffff;
+  background: #f2388f;
+}
+.quantity-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 10px;
+}
+.quantity-row button {
+  width: 40px;
+  padding: 0;
+}
+#toppingCheckboxContainer { margin-bottom: 12px; }
+#toppingCheckboxContainer label, #cartContainer > div, #orderContainer > div {
+  padding: 10px;
+  border: 1px solid #e0edf3;
+  border-radius: 8px;
+}
+#toppingCheckboxContainer label {
+  display: block;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  line-height: 24px;
+}
+#toppingCheckboxContainer input {
+  width: auto;
+  min-height: auto;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+}
+#qrCodeContainer {
+  display: inline-block;
+  padding: 16px;
+  border: 1px solid #cfe4ee;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #e0edf3;
+  text-align: left;
+  vertical-align: top;
+}
