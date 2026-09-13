@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  color: #10213b;
+  background: #eefbff;
+}
+
+h1,
+h2,
+h3 {
+  color: #049fd3;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+section {
+  max-width: 980px;
+  margin: 12px auto;
+  padding: 14px;
+  border: 1px solid #cfe4ee;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+button {
+  min-height: 40px;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  background: #049fd3;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+select,
+input {
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #bfd3df;
+  border-radius: 6px;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+#switchToCustomerButton {
+  float: right;
+}
+
+#stopScannerButton {
+  background: #6b7280;
+}
+
+#confirmOrderButton {
+  background: #f2388f;
+}
+
+#scannerStatus {
+  padding: 10px;
+  border-left: 4px solid #049fd3;
+  background: #eefbff;
+}
+
+#reader {
+  width: min(100%, 520px);
+  min-height: 320px;
+  border: 1px solid #cfe4ee;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+#orderDetailsContainer > div,
+#orderQueueContainer > table {
+  padding: 12px;
+  border: 1px solid #e0edf3;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
